@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy-gh": "gh-pages -d build -r https://github.com/hammadreal02/Physical-AI-and-Robotics.git -b gh-pages --exclude \"history/**\" --exclude \".gemini/**\"",
+    "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",

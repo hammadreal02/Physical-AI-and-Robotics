@@ -69,7 +69,7 @@ jobs:
       run: npm install # Re-install dependencies for this job (could be optimized with artifacts)
 
     - name: Deploy to GitHub Pages
-      run: npm run deploy
+      run: NODE_OPTIONS="--no-webstorage" npm run deploy
       env:
         # For 'npm run deploy' to work with GitHub Pages, you typically need to set the GH_TOKEN
         # This token is automatically provided by GitHub Actions (GITHUB_TOKEN)
