@@ -1,0 +1,59 @@
+{
+  "name": "docusaurus-init-temp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc",
+    "lint:md": "markdownlint \"**/*.md\" \"**/*.mdx\"",
+    "check:links": "lychee",
+    "test:ros2-hello-world": "python static/examples/ros2/hello_world/test_hello_world.py",
+    "test:e2e": "playwright test",
+    "test:gazebo-sim": "python static/examples/gazebo/robot_arm_sim/test_gazebo_sim.py",
+    "test:accessibility": "playwright test tests/accessibility.spec.ts"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.9.2",
+    "@docusaurus/preset-classic": "3.9.2",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@docusaurus/module-type-aliases": "3.9.2",
+    "@docusaurus/tsconfig": "3.9.2",
+    "@docusaurus/types": "3.9.2",
+    "axe-core": "^4.11.0",
+    "jest": "^30.2.0",
+    "lychee": "^0.2.12",
+    "markdownlint-cli": "^0.47.0",
+    "playwright": "^1.57.0",
+    "typescript": "~5.6.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=20.0"
+  }
+}

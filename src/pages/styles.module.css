@@ -1,0 +1,85 @@
+/**
+ * CSS files with extension .module.css will be loaded as CSS modules.
+ * Please add global styles here.
+ */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - var(--ifm-navbar-height));
+  text-align: center;
+  padding: 2rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.container {
+  max-width: 800px;
+  padding: 2rem;
+  background-color: var(--ifm-color-background-alt);
+  border-radius: var(--ifm-border-radius);
+  box-shadow: var(--ifm-shadow-lg);
+}
+
+.links {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search {
+  margin-top: 2rem;
+}
+
+.searchInput {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: var(--ifm-border-radius);
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Adjust button styles for consistency with Docusaurus buttons */
+.button {
+  padding: var(--ifm-button-padding-vertical) var(--ifm-button-padding-horizontal);
+  border-radius: var(--ifm-button-border-radius);
+  font-weight:900;
+  cursor: pointer;
+  border: var(--ifm-button-border-width) solid transparent;
+  transition: background-color var(--ifm-transition-fast) ease;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: var(--ifm-color-white);
+  text-decoration: none;
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-secondary);
+  color: var(--ifm-color-white);
+}
+
+.button--secondary:hover {
+  background-color: var(--ifm-color-secondary-dark);
+  color: var(--ifm-color-white);
+  text-decoration: none;
+}
+
+/* Ensure Docusaurus global styles apply for hero__title and hero__subtitle */
+.hero__title {
+  font-size: var(--ifm-h1-font-size);
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary-darkest);
+}
+
+.hero__subtitle {
+  font-size: var(--ifm-h3-font-size);
+  color: var(--ifm-font-color-secondary);
+}

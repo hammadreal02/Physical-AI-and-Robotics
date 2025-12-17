@@ -1,55 +1,101 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+    SYNC IMPACT REPORT
+
+    - Version change: none -> 1.0.0
+    - Added Principles:
+        - I. Veracity of Claims
+        - II. Beginner-Friendly Writing
+        - III. Executable & Testable Code
+        - IV. Spec-Driven Development
+        - V. Traceable Records
+        - VI. Grounded Content
+        - VII. Docusaurus-Exclusive Frontend
+        - VIII. Structured MDX Content
+        - IX. Modern & Responsive Layout
+        - X. Precise Terminology
+        - XI. Consistent Theming
+        - XII. Scoped Chatbot Responses
+        - XIII. Zero-Hallucination Tolerance
+        - XIV. Optimized RAG Pipeline
+        - XV. Reproducible Embeddings
+    - Added Sections:
+        - Constraints
+        - Success Criteria
+    - Removed Sections: None
+    - Templates requiring updates:
+        - [⚠ pending] .specify/templates/plan-template.md
+        - [⚠ pending] .specify/templates/spec-template.md
+        - [⚠ pending] .specify/templates/tasks-template.md
+        - [⚠ pending] .specify/templates/commands/*.md
+-->
+# Physical AI & Humanoid Robotics Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Veracity of Claims
+All technical claims (AI, robotics, ROS2, kinematics, sensing, RAG pipelines) must be verified from primary sources.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Beginner-Friendly Writing
+Writing style must be beginner-friendly, direct, and reproducible.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Executable & Testable Code
+All code snippets (TypeScript, Python, FastAPI) must be fully executable and testable.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Spec-Driven Development
+Every module must follow the Spec-Kit Plus cycle: specify → plan → tasks → implement.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Traceable Records
+ADR (architectural decisions) and PHR (prompt history) must be accurately maintained and fully traceable.
 
-### [PRINCIPLE_6_NAME]
+### VI. Grounded Content
+Physical, Robotics and AI content must be based strictly on verified documentation, research papers, and official specifications.
 
+### VII. Docusaurus-Exclusive Frontend
+The book’s frontend must be built exclusively with Docusaurus; no external frontend frameworks (Next.js/Vue/etc.) are allowed.
 
-[PRINCIPLE__DESCRIPTION]
+### VIII. Structured MDX Content
+Content must use MDX components and maintain a structured, readable, responsive layout.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### IX. Modern & Responsive Layout
+Layout must be modern, mobile-friendly, with clean spacing and readable typography.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### X. Precise Terminology
+No buzzwords; only precise, grounded explanations.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### XI. Consistent Theming
+Dark Theme (black background, gold primary, white text) and Light Theme (white background, gold primary, black text) must be implemented consistently through the Docusaurus configuration.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### XII. Scoped Chatbot Responses
+The chatbot must answer only from book content or user-selected text.
+
+### XIII. Zero-Hallucination Tolerance
+The RAG chatbot has zero-tolerance for hallucinations.
+
+### XIV. Optimized RAG Pipeline
+The Neon → FastAPI → Qdrant pipeline must be optimized for free-tier latency limits.
+
+### XV. Reproducible Embeddings
+Embeddings must be cost-efficient and reproducible.
+
+## Constraints
+
+- Minimum 10 chapters covering physical AI, humanoid systems, ROS2, Nvidia Isaac Sim, Gazebo and unity, simulation, agents, Isaac Ros,vision language action (VLA) and sensor system.
+- All claims must be fully traceable.
+- Docusaurus build must be reproducible on any clean machine.
+
+## Success Criteria
+
+- The book is published with a stable GitHub Pages deployment.
+- The layout is fully responsive and modern across desktop and mobile.
+- The chatbot correctly returns grounded answers restricted to selected text.
+- Qdrant + Neon syncing remains stable.
+- Each chapter passes verification, reproducibility, and clarity review.
+- The full Spec-Kit Plus workflow record remains complete and traceable.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan.
+All PRs and reviews must verify compliance with these principles.
+Any deviation from these principles requires a formal ADR.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-12 | **Last Amended**: 2025-12-12

@@ -1,0 +1,50 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #FFD700; /* Golden */
+  --ifm-color-primary-dark: #E6C200;
+  --ifm-color-primary-darker: #CCAD00;
+  --ifm-color-primary-darkest: #B39900;
+  --ifm-color-primary-light: #FFE033;
+  --ifm-color-primary-lighter: #FFE666;
+  --ifm-color-primary-lightest: #FFF099;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-background-color: rgba(59, 59, 58, 0.438);
+  --ifm-background-color: #FFFFFF; /* White background */
+  --ifm-font-color-base: #333333; /* Dark gray text */
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #FFD700; /* Golden */
+  --ifm-color-primary-dark: #E6C200;
+  --ifm-color-primary-darker: #CCAD00;
+  --ifm-color-primary-darkest: #B39900;
+  --ifm-color-primary-light: #FFE033;
+  --ifm-color-primary-lighter: #FFE666;
+  --ifm-color-primary-lightest: #FFF099;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-background-color: #000000; /* Black background */
+  --ifm-font-color-base: #CCCCCC; /* Light gray text */
+}
+
+/* Custom styles for homepage hero banner text */
+.hero__title {
+  color: var(--ifm-color-primary-darkest)
+}
+
+.hero__subtitle {
+  color: var(--ifm-color-primary-lighter);
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+}
