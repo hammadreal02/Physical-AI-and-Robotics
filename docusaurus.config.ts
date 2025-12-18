@@ -24,7 +24,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hammadreal02', // Usually your GitHub org/user name.
   projectName: 'Physical-AI-and-Robotics', // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
 
@@ -44,23 +44,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/hammadreal02/Physical-AI-and-robotic/tree/main/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/hammadreal02/Physical-AI-and-robotic/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -89,7 +72,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://hammadreal02.github.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -110,17 +93,14 @@ const config: Config = {
         {
           title: 'Community',
           items: [
+           
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Linkdin',
+              href: 'https://www.linkedin.com/in/muhammad-hammad-b5554a2b7a/',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/HammadIqbal_313',
             },
           ],
         },
@@ -129,12 +109,12 @@ const config: Config = {
           items: [            
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://hammadreal02.github.io',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics by hammad Iqbal`,
     },
     prism: {
       theme: prismThemes.github,
