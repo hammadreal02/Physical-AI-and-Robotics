@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Digital Twin and Simulation: Advanced Gazebo Features
+# Advanced Gazebo Features - week 06
 
 Building upon the basics of Gazebo integration, this chapter explores more advanced features that enable highly realistic and complex robot simulations. Mastering these features is key to developing robust digital twins.
 

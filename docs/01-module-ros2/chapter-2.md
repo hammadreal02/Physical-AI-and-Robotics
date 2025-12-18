@@ -2,9 +2,11 @@
 sidebar_position: 2
 ---
 
-# ROS 2 Fundamentals: Week 2 - Nodes, Topics, and Messages
+# Nodes, Topics, and Messages - Week 02
 
-This week, we dive deeper into the core communication mechanisms of ROS 2: Nodes, Topics, and Messages. Understanding how these components interact is fundamental to building any ROS 2 application.
+### This week, we dive deeper into the core communication mechanisms of ROS 2: 
+
+Nodes, Topics, and Messages. Understanding how these components interact is fundamental to building any ROS 2 application.
 
 ## ROS 2 Nodes: The Building Blocks
 

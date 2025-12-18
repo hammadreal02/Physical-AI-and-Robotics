@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# AI Robot Brains: Chapter 3 - Human-Robot Interaction and Learning
+# Human-Robot Interaction and Learning - week 10
 
 The ultimate goal for many physical AI systems, especially humanoid robots, is seamless interaction with humans and the ability to learn new skills. This chapter explores the advanced topics of human-robot interaction (HRI) and various learning paradigms that enable robots to become more intelligent and adaptable partners.
 

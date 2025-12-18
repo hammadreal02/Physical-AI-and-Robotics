@@ -9,20 +9,19 @@ const config: Config = {
   tagline: 'A comprehensive guide to Physical AI and Humanoid Robotics',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     // v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   // Set the production url of your site here
-  url: 'https://hammadreal02.github.io',
+  url: ' https://github.com/hammadreal02',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Physical-AI-and-Robotics/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'hammadreal02', // Usually your GitHub org/user name.
+  organizationName: 'hammadreal02', 
   projectName: 'Physical-AI-and-Robotics', // Usually your repo name.
   trailingSlash: true,
 
@@ -42,8 +41,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -72,7 +69,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://hammadreal02.github.io',
+          href: 'https://github.com/hammadreal02',
           label: 'GitHub',
           position: 'right',
         },
@@ -109,7 +106,7 @@ const config: Config = {
           items: [            
             {
               label: 'GitHub',
-              href: 'https://hammadreal02.github.io',
+              href: 'https://www.github.com/hammadreal02',
             },
           ],
         },

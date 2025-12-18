@@ -5,7 +5,7 @@ sidebar_position: 1
 import GazeboCodeExample from '@site/src/components/_client.GazeboCodeExample';
 
 
-# Digital Twin and Simulation: Gazebo Integration
+# Gazebo Integration - week 05
 
 Simulation plays a crucial role in robotics development, offering a safe, cost-effective, and efficient environment for testing algorithms, prototyping designs, and training AI models. Gazebo is one of the most widely used 3D robot simulators, providing realistic physics, sensor models, and a robust interface with ROS 2.
 

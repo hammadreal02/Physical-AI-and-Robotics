@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Visual Language & Action (VLA) Pipelines: Chapter 2 - Grounding Language in Action
+# Grounding Language in Action - week 12
 
 Building on the foundations of Visual-Language Models, this chapter delves into how robots can translate natural language commands, grounded in visual perception, into concrete physical actions. This process involves action planning, skill execution, and robust feedback mechanisms.
 

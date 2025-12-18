@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# AI Robot Brains: Chapter 1 - Perception and Sensing
+# Perception and Sensing - week 08
 
 The ability of a robot to understand its environment is paramount to its intelligence. This chapter focuses on the fundamental aspects of perception and sensing, which form the "eyes and ears" of an AI robot brain.
 

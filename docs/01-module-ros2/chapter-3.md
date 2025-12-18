@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# ROS 2 Fundamentals: Week 3 - Services and Actions
+# Services and Actions - week 03
 
 Building upon topics and messages, this week we explore two other crucial communication paradigms in ROS 2: Services and Actions. These mechanisms allow for more structured and complex interactions between nodes.
 

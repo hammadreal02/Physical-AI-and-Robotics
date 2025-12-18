@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Digital Twin and Simulation: Digital Twin Best Practices and Applications
+# Digital Twin Best Practices and Applications - week 07
 
 Having explored Gazebo's capabilities, this chapter focuses on best practices for designing and utilizing digital twins effectively. We will also look at real-world applications and the future of digital twin technology in physical AI.
 

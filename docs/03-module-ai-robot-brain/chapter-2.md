@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# AI Robot Brains: Chapter 2 - Navigation and Control
+# Navigation and Control - week 09
 
 With a foundational understanding of robot perception, this chapter moves to how robots move and interact within their environment. We will explore key concepts in navigation, motion planning, and control, which dictate a robot's physical actions.
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Visual Language & Action (VLA) Pipelines: Chapter 1 - Foundations of Visual-Language Models
+# Foundations of Visual-Language Models week 11
 
 The integration of visual perception with natural language understanding is a pivotal step towards truly intelligent robots. This chapter introduces the foundational concepts of Visual-Language Models (VLMs) and how they enable robots to interpret and act upon human commands expressed in natural language, grounded in visual observations.
 

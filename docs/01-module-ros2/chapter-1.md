@@ -3,9 +3,10 @@ sidebar_position: 1
 ---
 import RosCodeExample from '@site/src/components/_client.RosCodeExample';
 
-# ROS 2 Fundamentals: Week 1 - Getting Started
+# Get Started - week 01
 
-Welcome to the first week of our ROS 2 module! This week, we will lay the groundwork for understanding and working with the Robot Operating System 2 (ROS 2). ROS 2 is a flexible framework for writing robot software. It's a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behaviors across a wide variety of robotic platforms.
+
+**Welcome** to the first week of our **ROS 2 module!** This week, we will lay the groundwork for understanding and working with the Robot Operating System 2 (ROS 2). ROS 2 is a flexible framework for writing robot software. It's a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behaviors across a wide variety of robotic platforms.
 
 ## What is ROS 2 and Why Use It?
 

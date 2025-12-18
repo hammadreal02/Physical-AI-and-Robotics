@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Visual Language & Action (VLA) Pipelines: Chapter 3 - Advanced VLA Applications and Research Frontiers
+# Advanced VLA Applications and Research Frontiers - week 13
 
 This final chapter delves into cutting-edge applications of Visual Language and Action (VLA) pipelines and explores the exciting research frontiers pushing the boundaries of what robots can achieve through natural language interaction.
 

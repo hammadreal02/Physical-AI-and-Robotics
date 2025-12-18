@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# ROS 2 Fundamentals: Week 4 - Parameters, Launch Files, and Best Practices
+# Parameters, Launch Files, and Best Practices - week 04
 
 In our final week of ROS 2 fundamentals, we cover how to configure your nodes dynamically using parameters, orchestrate multiple nodes with launch files, and discuss essential best practices for efficient and maintainable ROS 2 development.
 
