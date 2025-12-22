@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CodeBlock from '@theme/CodeBlock';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 interface GazeboCodeExampleProps {
   path: string;
@@ -11,6 +12,7 @@ interface GazeboCodeExampleProps {
 }
 
 const GazeboCodeExample: React.FC<GazeboCodeExampleProps> = ({ path, urdfFile, spawnFile, testFile }) => {
+  const { siteConfig } = useDocusaurusContext();
   const [urdfCode, setUrdfCode] = useState('');
   const [spawnCode, setSpawnCode] = useState('');
   const [testCode, setTestCode] = useState('');
@@ -19,7 +21,7 @@ const GazeboCodeExample: React.FC<GazeboCodeExampleProps> = ({ path, urdfFile, s
   useEffect(() => {
     const fetchCode = async (file: string, setter: React.Dispatch<React.SetStateAction<string>>) => {
       try {
-        const response = await fetch(`${window.location.origin}/static/examples/${path}/${file}`);
+        const response = await fetch(`${siteConfig.baseUrl}examples/${path}/${file}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -34,7 +36,7 @@ const GazeboCodeExample: React.FC<GazeboCodeExampleProps> = ({ path, urdfFile, s
     fetchCode(urdfFile, setUrdfCode);
     fetchCode(spawnFile, setSpawnCode);
     fetchCode(testFile, setTestCode);
-  }, [path, urdfFile, spawnFile, testFile]);
+  }, [path, urdfFile, spawnFile, testFile, siteConfig.baseUrl]);
 
   if (error) {
     return <div style={{ color: 'red' }}>Error: {error}</div>;

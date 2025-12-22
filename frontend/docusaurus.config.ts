@@ -4,6 +4,27 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// Workaround for Node.js 22+ localStorage issue
+if (typeof process !== 'undefined' && process.versions != null && process.versions.node != null) {
+  try {
+     const storage = {
+        getItem: () => null,
+        setItem: () => {},
+        removeItem: () => {},
+        clear: () => {},
+        length: 0,
+        key: () => null,
+     };
+     Object.defineProperty(globalThis, 'localStorage', {
+        value: storage,
+        writable: true,
+        configurable: true
+     });
+  } catch (e) {
+     console.warn('Failed to mock localStorage:', e);
+  }
+}
+
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'A comprehensive guide to Physical AI and Humanoid Robotics',

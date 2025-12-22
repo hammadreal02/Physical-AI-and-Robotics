@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CodeBlock from '@theme/CodeBlock';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 interface RosCodeExampleProps {
   path: string;
@@ -10,6 +11,7 @@ interface RosCodeExampleProps {
 }
 
 const RosCodeExample: React.FC<RosCodeExampleProps> = ({ path, publisherFile, subscriberFile }) => {
+  const { siteConfig } = useDocusaurusContext();
   const [publisherCode, setPublisherCode] = useState('');
   const [subscriberCode, setSubscriberCode] = useState('');
   const [error, setError] = useState<string | null>(null);
@@ -17,7 +19,7 @@ const RosCodeExample: React.FC<RosCodeExampleProps> = ({ path, publisherFile, su
   useEffect(() => {
     const fetchCode = async (file: string, setter: React.Dispatch<React.SetStateAction<string>>) => {
       try {
-        const response = await fetch(`${window.location.origin}/static/examples/${path}/${file}`);
+        const response = await fetch(`${siteConfig.baseUrl}examples/${path}/${file}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -31,7 +33,7 @@ const RosCodeExample: React.FC<RosCodeExampleProps> = ({ path, publisherFile, su
 
     fetchCode(publisherFile, setPublisherCode);
     fetchCode(subscriberFile, setSubscriberCode);
-  }, [path, publisherFile, subscriberFile]);
+  }, [path, publisherFile, subscriberFile, siteConfig.baseUrl]);
 
   if (error) {
     return <div style={{ color: 'red' }}>Error: {error}</div>;
