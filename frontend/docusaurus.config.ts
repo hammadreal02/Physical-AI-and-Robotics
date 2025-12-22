@@ -14,7 +14,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: ' https://github.com/hammadreal02',
+  url: 'https://hammadreal02.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Physical-AI-and-Robotics/',
@@ -69,7 +69,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/hammadreal02',
+          href: 'https://www.github.com/hammadreal02',
           label: 'GitHub',
           position: 'right',
         },
@@ -111,7 +111,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics by hammad Iqbal`,
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics by Hammad Iqbal`,
     },
     prism: {
       theme: prismThemes.github,
