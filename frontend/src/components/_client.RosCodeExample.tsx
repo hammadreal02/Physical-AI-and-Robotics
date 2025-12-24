@@ -26,7 +26,7 @@ const RosCodeExample: React.FC<RosCodeExampleProps> = ({ path, publisherFile, su
         const text = await response.text();
         setter(text);
       } catch (e) {
-        setError(`Failed to load code from ${file}: ${e.message}`);
+        setError(`Failed to load code from ${file}: ${(e as Error).message}`);
         console.error(e);
       }
     };

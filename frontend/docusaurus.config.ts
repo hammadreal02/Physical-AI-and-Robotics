@@ -35,18 +35,19 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://hammadreal02.github.io/Physical-AI-and-Robotics',
+  url: 'https://physical-ai-and-robotics-gamma.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'hammadreal02', 
+  organizationName:'hammadreal02', 
   projectName: 'Physical-AI-and-Robotics', // Usually your repo name.
   trailingSlash: true,
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
