@@ -48,4 +48,4 @@ Replace `"your-github-username"` with your actual GitHub username.
 ## Live Site
 
 The live version of this documentation can be accessed at:
-[https://hammadreal02.github.io/Physical-AI-and-Robotics/](https://hammadreal02.github.io/Physical-AI-and-Robotics/)
+[https://physicalaiandroboticsbook.vercel.app/](https://physicalaiandroboticsbook.vercel.app/)
