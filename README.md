@@ -33,18 +33,6 @@ To set up and run the project locally, follow these steps:
     NODE_OPTIONS="--no-webstorage" npm run build
     ```
 
-## Deployment to GitHub Pages
-
-This project is configured to be deployed to GitHub Pages.
-
-**Note:** If you are deploying this project from scratch, ensure you have configured your GitHub Pages settings to serve from the `gh-pages` branch.
-
-To deploy the site to GitHub Pages, run:
-```bash
-NODE_OPTIONS="--no-webstorage" GIT_USER="your-github-username" npm run deploy-gh
-```
-Replace `"your-github-username"` with your actual GitHub username.
-
 ## Live Site
 
 The live version of this documentation can be accessed at:
